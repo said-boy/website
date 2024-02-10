@@ -17,7 +17,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: 
+        script: |
           cd public_html
           rm -rf *
           git clone https://github.com/said-boy/website.git
